@@ -1,5 +1,5 @@
 package ocp_training.day1;
-
+ class University{}
 public class Etudiant {
 
 	// attributs d'instance
@@ -29,7 +29,7 @@ public class Etudiant {
 		this.age = age;
 	}
 
-	public Etudiant() {
+	 Etudiant() {
 		System.out.println("constructeur");
 	}
 

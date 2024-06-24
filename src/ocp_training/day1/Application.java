@@ -1,8 +1,18 @@
 package ocp_training.day1;
 
+import static ocp_training.day1.calcul.UtilMath.PI;
+import static ocp_training.day1.calcul.UtilMath.getPI;
+import pack1.*;
+import pack2.*;
+/*import pack1.B;
+import pack1.C;*/
+//import pack2.C;
+
 public class Application {
 
 	public static void main(String[] args) {
+		int tab[],x;
+		int [] tab2;
 		//int x=1;
 		//System.out.println(x);
 		/*System.out.println("Hello Sagem");
@@ -39,6 +49,14 @@ public class Application {
 		//Etudiant e2 = e;
 		System.out.println("******");
 		Etudiant e2 = new Etudiant();
+		A a = new A();
+		B b = new B();
+		pack2.C  c = new pack2.C();
+		D d = new D();
+		E e3 = new E();
+		System.out.println(PI);
+		System.out.println(getPI());
+		int _=100;
 		
 	}
 
