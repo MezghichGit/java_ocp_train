@@ -2,6 +2,8 @@ package ocp_training.day1;
 
 import static ocp_training.day1.calcul.UtilMath.PI;
 import static ocp_training.day1.calcul.UtilMath.getPI;
+
+import ocp_training.day2.Animal;
 import pack1.*;
 import pack2.*;
 /*import pack1.B;
@@ -57,6 +59,10 @@ public class Application {
 		System.out.println(PI);
 		System.out.println(getPI());
 		int _=100;
+		
+		Animal a2 = new Animal();
+		a2.age = 2;
+		//a2.
 		
 	}
 
